@@ -10,50 +10,50 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
 </head>
 <body>
-    <caption>
-        Overzicht boekhouding
-    </caption>
-    <table class="table">
+    <table class="table caption-top">
+        <caption>Overzicht boekhouding</caption>
         <thead>
             <tr>
-                <th scope="col">Bedrijf</th>
-                <th scope="col">Omschrijving</th>
-                <th scope="col">In</th>
-                <th scope="col">Uit</th>
+                <th class="text-center" scope="col">Bedrijf</th>
+				<th class="text-center" scope="col">Omschrijving</th>
+				<th class="text-center" scope="col">In</th>
+				<th class="text-center" scope="col">Uit</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th>Bike center</th>
-                <td>e-mail nieuwsbrief</td>
-                <td>350.00 €</td>
-                <td></td>
+                <th class="text-start" scope="row">Bike center</th>
+                <td class="text-start">e-mail niewsbrief</td>
+                <td class="text-end">350 &euro;</td>
+                <td class="text-end">&nbsp;</td>
             </tr>
             <tr>
-                <th>Bakkerij</th>
-                <td>webhosting</td>
-                <td></td>
-                <td>1500.00 €</td>
+                <th class="text-start" scope="row">Bakkerij</th>
+                <td class="text-start">webhosting</td>
+                <td class="text-end">&nbsp;</td>
+                <td class="text-end">1500 &euro;</td>
             </tr>
             <tr>
-                <th>Architectuur</th>
-                <td>webdesign</td>
-                <td>5,750.00 €</td>
-                <td></td>
+                <th class="text-start" scope="row">Architectuur</th>
+                <td class="text-start">webdesign</td>
+                <td class="text-end">5750 &euro;</td>
+                <td class="text-end">&nbsp;</td>
             </tr>
             <tr>
-                <th>Kantenwinkel</th>
-                <td>domeinnaam</td>
-                <td></td>
-                <td>45.00 €</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td>€61,100.00</td>
-                <td>€1545.00</td>
+                <th class="text-start" scope="row">Krantenwinkel</th>
+                <td class="text-start">domeinnaam</td>
+                <td class="text-end">&nbsp;</td>
+                <td class="text-end">45 &euro;</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td class="text-start">&nbsp;</td>
+                <td class="text-start">&nbsp;</td>
+                <td class="text-end">6100 &euro;</td>
+                <td class="text-end">1545 &euro;</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
